@@ -1,1 +1,1 @@
-web: gunicorn mongo_rest:run
+web: gunicorn mongo_rest.run:app
